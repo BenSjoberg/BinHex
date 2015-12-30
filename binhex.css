@@ -25,6 +25,7 @@ body, textarea {
     width: 1px;
     text-align: left;
     padding-right: 8px;
+    vertical-align: middle;
 }
 
 textarea {
