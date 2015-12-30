@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>BinHex.net</title>
+    <link rel="stylesheet" href="binhex.css">
+</head>
+<body>
+    <div id="title">bin/hex/dec/octal converter</div>
+
+    <table id="conversion_table">
+        <tr>
+            <td>bin:</td>
+            <td>
+                <textarea
+                    id="bin"
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    pattern="[0-9]*"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>hex:</td>
+            <td>
+                <textarea
+                    id="hex"
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    pattern="[a-fA-F0-9]*"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>dec:</td>
+            <td>
+                <textarea
+                    id="dec"
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    pattern="[0-9]*"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>octal:</td>
+            <td>
+                <textarea
+                    id="octal"
+                    autocomplete="off"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    pattern="[0-9]*"></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <script src="jquery.min.js"></script>
+    <script src="BigInteger.min.js"></script>
+    <script src="binhex.js"></script>
+</body>
+</html>

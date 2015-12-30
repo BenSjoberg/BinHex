@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Source Code Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url("sourcecodepro400.woff");
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-style: normal;
+    font-weight: bold;
+    src: url("sourcecodepro700.woff");
+}
+
+body, textarea {
+    font-size: 12pt;
+    font-family: "Courier", monospace;
+}
+
+#title {
+    font-size: 14pt;
+    padding-bottom: 40px;
+}
+
+#conversion_table {
+    border-spacing: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+#conversion_table td {
+    height: 48px;
+    vertical-align: top;
+}
+
+#conversion_table td:first-child {
+    font-weight: bold;
+    width: 1px;
+    text-align: left;
+    padding-right: 8px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#conversion_table td:last-child {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-image: linear-gradient(to right, #c0c0c0, transparent 90%);
+    border-image-slice: 1;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    resize: none;
+    overflow: hidden;
+    text-align: right;
+}
+
+#conversion_table tr:last-child td {
+    border: none;
+}
