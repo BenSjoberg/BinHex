@@ -114,3 +114,6 @@ $('#octal').on('input', function()
     $(this).val(formatOctal(text));
     resizeTextarea($(this));
 });
+
+//Auto-focus binary field
+$('#bin').focus();
