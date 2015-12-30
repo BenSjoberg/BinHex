@@ -1,4 +1,4 @@
-# BinHex
+# [BinHex.net](https://binhex.net)
 
 Really simple Javascript app to convert between binary, hex, decimal, and octal.
 Built because none of the other online converters worked quite the way I wanted,

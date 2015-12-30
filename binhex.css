@@ -45,3 +45,9 @@ textarea {
 #conversion_table tr:last-child {
     border: none;
 }
+
+#github_link {
+    display: block;
+    padding-top: 40px;
+    font-size: 9pt;
+}
