@@ -12,6 +12,7 @@ body, textarea {
     border-spacing: 0;
     width: 100%;
     max-width: 600px;
+    border-collapse: collapse;
 }
 
 #conversion_table td {
@@ -24,14 +25,6 @@ body, textarea {
     width: 1px;
     text-align: left;
     padding-right: 8px;
-    border-bottom: 1px solid #c0c0c0;
-}
-
-#conversion_table td:last-child {
-    border-width: 0 0 1px 0;
-    border-style: solid;
-    border-image: linear-gradient(to right, #c0c0c0, transparent 90%);
-    border-image-slice: 1;
 }
 
 textarea {
@@ -45,6 +38,10 @@ textarea {
     text-align: right;
 }
 
-#conversion_table tr:last-child td {
+#conversion_table tr {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#conversion_table tr:last-child {
     border: none;
 }
