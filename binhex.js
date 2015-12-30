@@ -79,6 +79,7 @@ $('#bin').on('input', function()
 
     doConversions(text, 2);
     $(this).val(formatBin(text));
+    resizeTextarea($(this));
 });
 
 //Handle hexadecimal input
@@ -89,6 +90,7 @@ $('#hex').on('input', function()
 
     doConversions(text, 16);
     $(this).val(formatHex(text));
+    resizeTextarea($(this));
 });
 
 //Handle decimal input
@@ -99,6 +101,7 @@ $('#dec').on('input', function()
 
     doConversions(text, 10);
     $(this).val(formatDec(text));
+    resizeTextarea($(this));
 });
 
 //Handle octal input
@@ -109,4 +112,5 @@ $('#octal').on('input', function()
 
     doConversions(text, 8);
     $(this).val(formatOctal(text));
+    resizeTextarea($(this));
 });
