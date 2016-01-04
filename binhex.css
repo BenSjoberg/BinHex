@@ -1,6 +1,8 @@
 body, textarea {
     font-size: 12pt;
     font-family: "Courier", monospace;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 #title {
