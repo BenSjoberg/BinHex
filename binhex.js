@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 $('tr').click(function()
 {
@@ -9,7 +9,7 @@ $('tr').click(function()
 function doConversions(value, base)
 {
     //If value is blank, just clear everything
-    if(value=="")
+    if(value==='')
     {
         $('#bin, #hex, #dec, #octal').val('').css({'height':'auto'});
         return;
@@ -48,12 +48,12 @@ function doConversions(value, base)
 
 function formatBin(bin)
 {
-    return bin.replace(/(.)(?=(.{8})+$)/g, '$1 ');;
+    return bin.replace(/(.)(?=(.{8})+$)/g, '$1 ');
 }
 
 function formatHex(hex)
 {
-    return hex.replace(/(.)(?=(.{2})+$)/g, '$1 ');;
+    return hex.replace(/(.)(?=(.{2})+$)/g, '$1 ');
 }
 
 function formatDec(dec)
