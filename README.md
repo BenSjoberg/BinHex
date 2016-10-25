@@ -9,4 +9,4 @@ but it's mostly an excuse to play around with GitHub Pages and CloudFlare.
 * This project uses the
 [BigInteger](https://github.com/peterolson/BigInteger.js) library for actual
 base conversions.
-* [jQuery](http://jquery.com/) is licensed under the MIT license.
+* [jQuery](https://jquery.com/) is licensed under the MIT license.
