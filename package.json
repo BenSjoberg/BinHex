@@ -1,0 +1,27 @@
+{
+  "name": "binhex",
+  "version": "0.0.0",
+  "description": "Really simple Javascript app to convert between binary, hex, decimal, and octal.",
+  "main": "binhex.js",
+  "scripts": {
+    "build": "browserify binhex.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenSjoberg/BinHex.git"
+  },
+  "author": "Ben Sjoberg",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/BenSjoberg/BinHex/issues"
+  },
+  "homepage": "https://github.com/BenSjoberg/BinHex#readme",
+  "dependencies": {
+    "big-integer": "^1.6.17",
+    "browserify": "^13.3.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.3.0"
+  }
+}

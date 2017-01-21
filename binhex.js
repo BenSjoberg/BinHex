@@ -1,5 +1,8 @@
 'use strict';
 
+var $=require('jquery');
+var bigInt=require('big-integer');
+
 $('tr').click(function()
 {
     //Clicking anywhere in a row highlights that row's input

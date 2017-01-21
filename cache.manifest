@@ -1,9 +1,7 @@
 CACHE MANIFEST
-# 15
+# 16
 
-BigInteger.min.js
 binhex.css
-binhex.js
+bundle.js
 icon.png
 index.html
-jquery.min.js
